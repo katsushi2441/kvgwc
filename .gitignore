@@ -1,0 +1,23 @@
+# 設置ごとの設定（クライアントシークレットが入る）
+public/kvgwc_config.php
+# 台帳（個人情報）と鍵のキャッシュ
+public/kvgwc_data/
+outputs/
+
+# 別売りアプリのサンプル（デモにだけ置く。GitHubにはCoreだけを載せる）
+sample_apps/
+
+# 手順書（有料）。GitHubにはコードだけを載せる。
+# kappstore = コード + これらを同梱したZIP
+# Brain     = これらの内容（コードは購入者がGitHubから無料で入手する）
+docs/
+skills/
+manual/
+AGENTS.md
+CLAUDE.md
+
+# 社内の道具（デプロイ・パッケージ組み立て・商品画像）。製品の一部ではない。
+scripts/build_manual.sh
+scripts/build_package.sh
+scripts/make_product_image.py
+scripts/deploy_demo.sh
