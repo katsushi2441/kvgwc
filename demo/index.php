@@ -134,4 +134,4 @@ li{margin-bottom:9px}
 
   <p class="foot"><b>Kurage Vibe Groupware Core</b> v1.0　—　拡張可能なグループウェアCore</p>
 </div>
-</body></html>
+<?php if (($_SERVER['HTTP_HOST'] ?? '') === 'proto.exbridge.jp'): ?><p style="text-align:center;font-size:13px;margin:14px 0;color:#5d6b7a">これはデモです。<a href="https://kappstore.exbridge.jp/app.php?id=c1864cba4ab726b0&amp;ref=kvgwc" target="_blank" rel="noopener">この製品をオンプレミスで導入する（商品ページ）</a></p><?php endif; ?></body></html>
