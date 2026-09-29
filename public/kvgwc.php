@@ -541,7 +541,7 @@ function kv_nav($user, $current) {
 
 function kv_foot() {
     echo '<footer class="kv-foot"><b>' . kv_h(KVGWC_PRODUCT) . '</b> '
-       . kv_h(KVGWC_VERSION) . '　—　拡張可能なグループウェアCore</footer>' . ((($_SERVER['HTTP_HOST'] ?? '') === 'proto.exbridge.jp') ? '<p style="text-align:center;font-size:13px;margin:14px 0;color:#5d6b7a">これはデモです。<a href="https://kappstore.exbridge.jp/app.php?id=c1864cba4ab726b0&amp;ref=kvgwc" target="_blank" rel="noopener">この製品をオンプレミスで導入する（商品ページ）</a></p>' : '') . '</body></html>';
+       . kv_h(KVGWC_VERSION) . '　—　拡張可能なグループウェアCore</footer>' . ((($_SERVER['HTTP_HOST'] ?? '') === 'proto.exbridge.jp') ? '<p style="text-align:center;font-size:13px;margin:14px 0;color:#5d6b7a">これはデモです。<a href="https://kappstore.exbridge.jp/app.php?id=c1864cba4ab726b0&amp;ref=kvgwc" target="_blank" rel="noopener">この製品をオンプレミスで導入する（商品ページ）</a></p><script src=https://kurage.exbridge.jp/partner-bar.js defer></script>' : '') . '</body></html>';
 }
 
 function kv_msg() {
